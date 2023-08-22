@@ -1,0 +1,8 @@
+<title>web-html出力</title>
+<link rel="icon" href="https://scfcdv.github.io/homeweb2/favicon.ico">
+<script>function openHtml() {
+var input = document.getElementById("html-input").value;
+var win = window.open("", "HTML Viewer");
+win.document.write(input);}</script>
+<form><textarea id="html-input" rows="50%" cols="200%"></textarea><br>
+<input type="button" value="表示" onclick="openHtml()"></form>
